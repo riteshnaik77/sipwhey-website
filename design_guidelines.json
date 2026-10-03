@@ -1,0 +1,208 @@
+{
+  "brand_identity": {
+    "name": "SipWhey",
+    "tagline": "STRENGTH MEETS RADIANCE.",
+    "sub_tagline": "PROTEIN FOR YOUR ACTIVE LIFE. WELLNESS FOR EVERYTHING ELSE.",
+    "positioning": "Premium daily clear protein + collagen wellness drink. NOT a heavy bodybuilding shake.",
+    "vibe": "LUXURY WELLNESS, ACTIVE LIFESTYLE, MODERN NUTRITION, EDITORIAL E-COMMERCE",
+    "target_audience": "Active urban professionals, wellness enthusiasts, discerning individuals seeking light, clean protein and collagen."
+  },
+  "color_system": {
+    "palette": {
+      "frost_white": "#F8FAFC",
+      "pearl_white": "#F1F5F9",
+      "warm_ivory": "#FBF9F5",
+      "deep_obsidian": "#0A0D12",
+      "deep_navy": "#0F172A",
+      "champagne_gold": "#D4AF37",
+      "champagne_gold_muted": "#C5A059",
+      "tropical_pineapple_accent": "#EAB308",
+      "tropical_pineapple_light": "#FEF08A",
+      "wild_blueberry_accent": "#6366F1",
+      "wild_blueberry_light": "#C7D2FE",
+      "text_primary_dark_bg": "#F8FAFC",
+      "text_secondary_dark_bg": "#94A3B8",
+      "text_primary_light_bg": "#0F172A",
+      "text_secondary_light_bg": "#475569"
+    },
+    "color_rhythm": [
+      "01 Hero: Frost White / Pearl White (#F8FAFC)",
+      "02 Life in Motion: Warm Ivory (#FBF9F5)",
+      "03 Why SipWhey: Deep Obsidian (#0A0D12)",
+      "04 What Makes SipWhey: Warm Ivory / Pearl White (#FBF9F5)",
+      "05 Daily Ritual: Frost White (#F8FAFC)",
+      "06 Flavours: Light Neutral with Dynamic Flavour Accents (#F1F5F9)",
+      "07 Real People (UGC): Deep Navy / Deep Obsidian (#0F172A)",
+      "08 Purchase + Brand Close: Frost White transitioning to Deep Navy / Obsidian (#F8FAFC to #0A0D12)"
+    ],
+    "rules": {
+      "no_primary_green": true,
+      "flavour_colors_restricted_to_flavour_section": true,
+      "champagne_gold_usage": "Restrained accents only, never for small body text",
+      "accessibility": "WCAG AA compliant contrast on all surfaces"
+    }
+  },
+  "typography": {
+    "google_fonts_import": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap",
+    "font_families": {
+      "display_editorial": "'Cormorant Garamond', Georgia, serif",
+      "body_ui": "'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+    },
+    "type_scale": {
+      "hero_heading": "text-4xl sm:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05]",
+      "section_title": "text-3xl sm:text-5xl font-medium tracking-tight leading-[1.1]",
+      "subsection_title": "text-xl sm:text-2xl font-semibold tracking-normal",
+      "body_large": "text-base sm:text-lg font-normal leading-relaxed",
+      "body": "text-sm sm:text-base font-normal leading-relaxed",
+      "overline_label": "text-xs uppercase tracking-[0.25em] font-semibold"
+    },
+    "rules": {
+      "editorial_serif_usage": "Reserved for Hero title, key editorial statement in Section 03, Flavour hero phrase, and Final Brand Close.",
+      "sans_serif_usage": "All navigation, UI components, numbers, ingredient callouts, buttons, body copy.",
+      "forbidden_fonts": ["Inter", "Roboto", "Space Grotesk", "Open Sans"]
+    }
+  },
+  "layout_and_grid": {
+    "max_content_width": "max-w-7xl (1440px)",
+    "vertical_spacing_desktop": "py-24 lg:py-32 (100px - 150px)",
+    "vertical_spacing_mobile": "py-14 lg:py-20 (56px - 80px)",
+    "compact_sections": "py-12 lg:py-16 for Flavours, FAQ, Purchase module",
+    "grid_system": "8px spacing system, responsive CSS Grid / Flexbox"
+  },
+  "motion_and_interactions": {
+    "smooth_scroll": "Lenis smooth scroll integration for weight and momentum",
+    "signature_interaction": {
+      "name": "THE CLEAR POUR",
+      "location": "Section 03 (Why SipWhey)",
+      "mechanism": "Scroll-driven interactive sequence: Sachet tilt -> Powder Pour -> Fluid fill -> Ice drop -> Clear drink transformation",
+      "engine": "Framer Motion scroll triggers / Canvas step transition"
+    },
+    "secondary_interactions": [
+      "Kinetic text reveal on scroll",
+      "Interactive Flavour Switcher with instant accent aura crossfade",
+      "Horizontal draggable UGC video card reel",
+      "Hover lift with subtle ambient glow on product boxes",
+      "Accordion smooth height expansion for FAQ"
+    ]
+  },
+  "image_urls": {
+    "clear_drink_hero": "https://images.unsplash.com/photo-1573624658129-3f7856192f19?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwyfHxyZWZyZXNoaW5nJTIwY2xlYXIlMjBmcnVpdCUyMGRyaW5rJTIwaWNlJTIwZ2xhc3N8ZW58MHx8fHwxNzg5NjQyMzgyfDA&ixlib=rb-4.1.0&q=85",
+    "fruit_lemonade_clear": "https://images.unsplash.com/photo-1623157980612-da2c2cdb4c0b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzR8MHwxfHNlYXJjaHwzfHxyZWZyZXNoaW5nJTIwY2xlYXIlMjBmcnVpdCUyMGRyaW5rJTIwaWNlJTIwZ2xhc3N8ZW58MHx8fHwxNzg5NjQyMzgyfDA&ixlib=rb-4.1.0&q=85",
+    "active_yacht_lifestyle": "https://images.pexels.com/photos/4939398/pexels-photo-4939398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "active_workout_wellness": "https://images.pexels.com/photos/6922150/pexels-photo-6922150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+  },
+  "sections_breakdown": [
+    {
+      "section_id": "01",
+      "name": "Cinematic Hero",
+      "background": "#F8FAFC (Frost White)",
+      "headline": "STRENGTH MEETS RADIANCE.",
+      "subheadline": "Protein for your active life. Wellness for everything else.",
+      "cta": "EXPLORE SIPWHEY",
+      "key_elements": ["No price in hero", "Focus on desire and luxury lifestyle", "Floating sachet preview", "Badge: 24.5G Dual-Protein Formula"]
+    },
+    {
+      "section_id": "02",
+      "name": "Life in Motion",
+      "background": "#FBF9F5 (Warm Ivory)",
+      "layout": "50/50 Split Editorial",
+      "left_col": "Cinematic vertical video container with play/pause interaction & subtle pulse overlay",
+      "right_col": "Editorial text: NOT JUST FOR THE GYM. MADE FOR LIFE. Daily radiance, cellular repair, active vitality."
+    },
+    {
+      "section_id": "03",
+      "name": "Why SipWhey",
+      "background": "#0A0D12 (Deep Obsidian)",
+      "headline": "WHY DOES PROTEIN HAVE TO FEEL LIKE A SHAKE?",
+      "contrast_statement": "HEAVY. THICK. MILKY. -> MEET SIPWHEY. CLEAR. LIGHT. REFRESHING.",
+      "feature_graphic": "THE CLEAR POUR scroll-driven interactive sequence"
+    },
+    {
+      "section_id": "04",
+      "name": "What Makes a SipWhey?",
+      "background": "#FBF9F5 (Warm Ivory)",
+      "center_piece": "Large central SipWhey Single-Serving Sachet",
+      "callouts": [
+        "20G Whey Protein Isolate (Muscle Repair & Recovery)",
+        "5G Hydrolyzed Marine Collagen (Skin Radiance & Joint Health)",
+        "100% Vitamin C Daily Boost",
+        "0G Added Sugar / Low Calorie",
+        "Fruit-Forward Natural Flavours"
+      ],
+      "hero_stat": "24.5G TOTAL PROTEIN"
+    },
+    {
+      "section_id": "05",
+      "name": "Your New Daily Ritual",
+      "background": "#F8FAFC (Frost White)",
+      "steps": ["01 TEAR", "02 MIX", "03 CHILL", "04 SIP"],
+      "occasions": ["AT WORK", "ON THE GO", "AFTER TRAINING"]
+    },
+    {
+      "section_id": "06",
+      "name": "Flavours Experience",
+      "background": "#F1F5F9 (Light Neutral with dynamic accent shift)",
+      "heading": "WHAT ARE YOU SIPPING TODAY?",
+      "flavours": [
+        {
+          "name": "Tropical Pineapple",
+          "notes": "Crisp, sun-ripened pineapple sweetness with a clean tart finish",
+          "accent_color": "#EAB308"
+        },
+        {
+          "name": "Wild Blueberry",
+          "notes": "Deep orchard blueberry undertones balanced with light refreshing acidity",
+          "accent_color": "#6366F1"
+        }
+      ]
+    },
+    {
+      "section_id": "07",
+      "name": "Real People. Real SipWhey.",
+      "background": "#0F172A (Deep Navy)",
+      "layout": "Horizontal reel scroll of vertical video/UGC card placeholders",
+      "rule": "Clean aesthetic UGC placeholders, no fake review quotes"
+    },
+    {
+      "section_id": "08",
+      "name": "Purchase + Brand Close + FAQ",
+      "background": "#F8FAFC -> #0A0D12 (Transition to Deep Obsidian)",
+      "headline": "YOUR DAILY PROTEIN, REIMAGINED.",
+      "pricing_offers": [
+        "Single Pack (15 Sachets): ₹1,599 (Launch Price, MRP ₹1,999)",
+        "SipWhey Duo (2 Packs / 30 Sachets): ₹2,999 (Best Value)"
+      ],
+      "buying_mechanism": "Direct External Buy Now Action",
+      "faq_items": [
+        "How is SipWhey different from traditional whey protein?",
+        "When is the best time to drink SipWhey?",
+        "What is the source of marine collagen?",
+        "Is SipWhey suitable for people with lactose sensitivity?"
+      ],
+      "brand_close": "STRENGTH MEETS RADIANCE. READY TO SIP DIFFERENT?",
+      "footer": "Minimal premium footer with 'JOIN THE SIPWHEY ROUTINE' newsletter signup"
+    }
+  ],
+  "testing_and_accessibility": {
+    "data_testid_convention": "kebab-case, role-based identifiers on all interactive elements",
+    "required_test_ids": [
+      "nav-shop-link",
+      "nav-why-sipwhey-link",
+      "nav-flavours-link",
+      "nav-reviews-link",
+      "nav-faq-link",
+      "nav-cart-button",
+      "nav-shop-cta-button",
+      "hero-explore-cta-button",
+      "flavour-toggle-pineapple",
+      "flavour-toggle-blueberry",
+      "purchase-pack-single-option",
+      "purchase-pack-duo-option",
+      "buy-now-submit-button",
+      "faq-accordion-item-1",
+      "newsletter-email-input",
+      "newsletter-submit-button"
+    ]
+  },
+  "GENERAL UI UX DESIGN GUIDELINES": "All interactive elements must feature distinct hover states, visible focus rings, aria labels, and kebab-case data-testid attributes for E2E testing."
+}

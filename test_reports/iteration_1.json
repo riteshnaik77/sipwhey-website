@@ -1,0 +1,22 @@
+{
+  "summary": "Frontend regression test of SipWhey after content-architecture refactor to /app/frontend/src/config.js. Verified hero, marquee/section flow, flavour selector, purchase pricing (Single ₹1,999→₹1,599 Save ₹400, Duo ₹3,998→₹2,999 Save ₹999), correct packaging (1 box · 7 sachets / 2 boxes · 14 sachets), cart add/qty/remove/total, duo variants create separate lines, cart badge count, FAQ (10 questions, protein answer references 24.5g/20g/5g), newsletter POST /api/subscribe returning success toast, and 390px mobile viewport (no horizontal overflow, stat below hero image, full-screen cart drawer, sticky CTA appears). No console errors detected. All refactor targets intact.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [],
+    "design_issues": []
+  },
+  "test_report_links": [],
+  "action_items": [],
+  "critical_code_review_comments": [
+    "Purchase.jsx: FlavourPills onChange for the Single card does not update `sticky` state (only Duo pills do via onSelectOffer). Consequence: after clicking SHOP THIS FLAVOUR from Flavours section, the mobile sticky CTA label may still show default until user touches a single-card pill. Minor UX polish, not a regression.",
+    "Hero.jsx image alts use FLAVOURS[1] and FLAVOURS[0] by index — brittle if FLAVOURS array order changes. Consider looking up by id."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "N/A (frontend-only test)", "frontend": "100%"},
+  "seed_data_creation": "None",
+  "retest_needed": false,
+  "should_main_agent_self_test": false,
+  "context_for_next_testing_agent": "Refactor passed cleanly. Prices, packaging strings, nutrition facts, flavour swaps, cart math, FAQ answers, footer newsletter, and mobile layout all validated against config.js. Newsletter /api/subscribe endpoint responded 2xx (success toast shown). Checkout button intentionally shows 'launching soon' toast — not a bug per spec.",
+  "rca of the issue": "N/A — no bugs found."
+}
